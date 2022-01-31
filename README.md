@@ -7,4 +7,4 @@ It is web page on details of Canada.
 <br>
 ## Screenshot of the web page:-
 <br>
-![web page](https://user-images.githubusercontent.com/86122364/151787499-1628c23e-c13d-4770-8691-cac94c2d9194.png)
+![web page](https://user-images.githubusercontent.com/86122364/151788035-2d20d9f3-a814-4593-91e0-4e11d51561fd.png)
