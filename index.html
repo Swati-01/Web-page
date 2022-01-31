@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
+</head>
+<body style="background-color: lightgrey;">
+    <div class="topnav" style="background-color: darkslategray ;">
+        <u><h1 style="padding-top: 20px; font-family:'Times New Roman', Times, serif; font-size: 50px; text-align: center;">CANADA</h1></u>
+        <button href="#introduction" style=" background-color: burlywood; width: auto; font-family: 'Times New Roman', Times, serif; font-size: 25px; border: 2px gray solid; padding: 5px; margin-left: 5px;">Introduction</button>
+        <button href="#map" style="background-color: burlywood; width: auto; font-family: 'Times New Roman', Times, serif; font-size: 25px; border: 2px gray solid; padding: 5px; margin-left: 5px;">Location</button>
+        <button href="#facts" style="background-color: burlywood; width: auto; font-family: 'Times New Roman', Times, serif; font-size: 25px; border: 2px gray solid; padding: 5px; margin-left: 5px;" >Facts</button>
+        <div class="search" style="text-align: right; ">
+         <select id="country" name="country" >
+            <option value="Canada">Canada</option>
+            <option value="Afganistan">Afghanistan</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Armenia">Armenia</option>
+            <option value="Aruba">Aruba</option>
+            <option value="Australia">Australia</option>
+            <option value="Austria">Austria</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Bahamas">Bahamas</option>
+            <option value="Bahrain">Bahrain</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Barbados">Barbados</option>
+            <option value="Belarus">Belarus</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Belize">Belize</option>
+            <option value="Benin">Benin</option>
+            <option value="Bermuda">Bermuda</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Bonaire">Bonaire</option>
+            <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+            <option value="Botswana">Botswana</option>
+            <option value="Brazil">Brazil</option>
+            <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+            <option value="Brunei">Brunei</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Burkina Faso">Burkina Faso</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Cambodia">Cambodia</option>
+            <option value="Cameroon">Cameroon</option>
+            <option value="Canada">Canada</option>
+            <option value="Canary Islands">Canary Islands</option>
+            <option value="Cape Verde">Cape Verde</option>
+            <option value="Cook Islands">Cook Islands</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Cote DIvoire">Cote DIvoire</option>
+            <option value="Croatia">Croatia</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Curaco">Curacao</option>
+            <option value="Cyprus">Cyprus</option>
+            <option value="Czech Republic">Czech Republic</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Djibouti">Djibouti</option>
+            <option value="Dominica">Dominica</option>
+            <option value="Dominican Republic">Dominican Republic</option>
+            <option value="East Timor">East Timor</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Egypt">Egypt</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Equatorial Guinea">Equatorial Guinea</option>
+            <option value="Eritrea">Eritrea</option>
+            <option value="Estonia">Estonia</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Falkland Islands">Falkland Islands</option>
+            <option value="Faroe Islands">Faroe Islands</option>
+            <option value="Fiji">Fiji</option>
+            <option value="Finland">Finland</option>
+            <option value="France">France</option>
+            <option value="French Guiana">French Guiana</option>
+            <option value="French Polynesia">French Polynesia</option>
+            <option value="French Southern Ter">French Southern Ter</option>
+            <option value="India">India</option>
+            <option value="Iran">Iran</option>
+            <option value="Iraq">Iraq</option>
+            <option value="Ireland">Ireland</option>
+            <option value="Isle of Man">Isle of Man</option>
+            <option value="Israel">Israel</option>
+            <option value="Italy">Italy</option>
+            <option value="Jamaica">Jamaica</option>
+            <option value="Japan">Japan</option>
+            <option value="Jordan">Jordan</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Kiribati">Kiribati</option>
+            <option value="Korea North">Korea North</option>
+            <option value="Korea Sout">Korea South</option>
+            <option value="Kuwait">Kuwait</option>
+            <option value="Kyrgyzstan">Kyrgyzstan</option>
+            <option value="Laos">Laos</option>
+            <option value="Latvia">Latvia</option>
+            <option value="Lebanon">Lebanon</option>
+            <option value="Lesotho">Lesotho</option>
+            <option value="Liberia">Liberia</option>
+            <option value="Libya">Libya</option>
+            <option value="Liechtenstein">Liechtenstein</option>
+            <option value="Lithuania">Lithuania</option>
+            <option value="Luxembourg">Luxembourg</option>
+            <option value="Macau">Macau</option>
+            <option value="Macedonia">Macedonia</option>
+            <option value="Madagascar">Madagascar</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Malawi">Malawi</option>
+            <option value="Norfolk Island">Norfolk Island</option>
+            <option value="Norway">Norway</option>
+            <option value="Oman">Oman</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Palau Island">Palau Island</option>
+            <option value="Palestine">Palestine</option>
+            <option value="Panama">Panama</option>
+            <option value="Papua New Guinea">Papua New Guinea</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Peru">Peru</option>
+            <option value="Zambia">Zambia</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+         </select>
+        </div>
+    </div>
+    <div style="background-color: darkgray; margin: 5px; padding: 15px;">
+    <div class="logo">
+        <div id="introduction">
+        <h2>Introduction</h2>
+        <img alt="flag of Canada" src="img/canada_logo.png" width="20%" height="10%" style="border: 3px black solid;"> 
+        </div>
+    </div>
+    <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+        <b>Canada</b>, second largest country in the world in area (after Russia), 
+        occupying roughly the northern two-fifths of the continent of North 
+        America.
+        <br>Despite Canada’s great size, it is one of the world’s most 
+        sparsely populated countries. This fact, coupled with the grandeur of the 
+        landscape, has been central to the sense of Canadian national identity, 
+        as expressed by the Dublin-born writer Anna Brownell Jameson, who explored 
+        central Ontario in 1837 and remarked exultantly on “the seemingly interminable 
+        line of trees before you; the boundless wilderness around you; the mysterious depths 
+        amid the multitudinous foliage, where foot of man hath never penetrated…the solitude 
+        in which we proceeded mile after mile, no human being, no human dwelling within sight.” 
+        Although Canadians are comparatively few in number, they have crafted what many observers 
+        consider to be a model multicultural society, welcoming immigrant populations from every 
+        other continent. In addition, Canada harbours and exports a wealth of natural resources 
+        and intellectual capital equaled by few other countries.
+    </p>
+    </div>
+    <h2>Where is Canada located:</h2>
+    <div id="map" style="background-color: darkgray; margin: 5px; padding: 15px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41298048.64033085!2d-130.1467793909093!3d50.81944076453405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sin!4v1643622846504!5m2!1sen!2sin" width="600" height="450" style="border: 3px black solid;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div id="facts" style="background-color: darkgrey; margin: 5px; padding: 15px; ">
+        <h2>INTERSESTING FACTS ABOUT CANADA:-</h2>
+        <p style="font-family:'Times New Roman', Times, serif ; font-size: 18px;">
+            These little-known oddities include the country’s culture, geography and history:-
+           <br><br>
+            <b>1. CANADA AND MARS:-</b>
+            You can find plenty of craters on Mars resembling a shallow hole on the surface. As a tribute, some of them were named after locations in Canada like Gander, Newfoundland, due to its space research efforts. 
+<br><br>
+            <b>2. “EH” IS AN ACTUAL WORD:-</b>
+            If you’re familiar with Canadian slang, you must have heard "eh" used in everyday conversations. The interjection is often used at the end of a question or to greet someone at a distance. It’s even listed in the Canadian Oxford Dictionary! 
+<br><br>
+<b>3. SANTA IS CANADIAN:-</b>
+            Every year millions of children send letters to Santa Claus. Have you ever wondered where they go? They are all sent to a Canadian address: The North Pole’s postal address, H0H 0H0. In 2008, Santa also received Canadian citizenship issued by the Immigration Minister.
+            <br><br>
+            <b>4. MAPLE SYRUP MONOPOLY:-</b>
+            For Canadians, pancakes and maple syrup are inseparable. But the relationship runs even deeper than that. Small towns all over Quebec are responsible for almost 80% of the world’s maple syrup production.  
+<br><br>
+<b>5. HOME TO SUPERHEROES:-</b>
+            Loyal fans of superheroes know that not all of them are Hollywood creations. Characters like Superman were co-created by Torontonian artist Joe Shuster and Wolverine was first born in Cold Lake, Alberta. 
+<br><br>
+<b>6. 20% OF THE WORLD'S SURFACE FRESHWATER:-</b>
+            Canada is a freshwater galore. Over two million lakes, streams and rivers, located within the country’s borders make up one-fifth of the world’s freshwater resources.  
+        <br>    <br>
+            <b></b>7. 192,444 SMITHS</b>
+            Do you know someone named Smith? The surname is ranked as the most popular in seven Canadian territories and provinces. Across the entire country, Smith shows up as frequently as one in every 192 people.  
+            <br><br>
+            <b>8. LESS GRAVITY</b>
+            For decades, the Hudson Bay region was an unsolved mystery to scientists. The area has lower levels of gravity compared to the rest of the globe. You won't float, but you’ll weigh less! 
+            <br><br>
+            <b>9. SECOND-LARGEST COUNTRY IN THE WORLD WITH FOREST</b>
+            40% of Canada’s 979-million-hectare land is covered with trees. This ratio positions Canada as the second-largest country in the world in terms of forest and makes it home to 9% of the world’s forests.
+            <br><br>
+            <b>10. MAC AND CHEESE FANS</b>
+            Although mac and cheese traces its roots back to Italy, Canada has certainly helped spread the love for this irresistibly creamy and cheesy dish. Every year, locals indulge in 55% more boxed mac and cheese than Americans. Canadian consume an average of 1.7 million boxes out of the 7 million sold weekly.  
+            <br><br>
+            <b>11. MARS-LIKE TEMPERATURE</b>
+            In 1947, Snag in the Yukon set the record for the lowest temperature at -62.8°C (-81.4°F). Frosty air from Siberia created nearly the same temperature in northern Canada as you’d find on the surface of Mars! 
+            <br><br>
+            <b>12. GIVE CANADA A CALL</b>
+            For those who want to reach out to Canada, the official phone number is 1-800-O-CANADA. The number provides a general information service, and – in infrequent instances – you may be contacted to deliver Government of Canada services.   
+            <br><br>
+            <b>13. THE WORLD’S NORTHERNMOST SETTLEMENT</b>
+            Alert, in Nunavut, on Ellesmere Island, is the world’s northernmost settlement. In this area, the warmest months reach 3.4°C (38.1°F). During winter months, it drops to -32.19°C (-26°F). At just 817 kilometers from the North Pole, most inhabitants of Alert are members of the military and scientists. 
+            <br><br>
+            <b>14. POLAR-BEAR SHAPED PLATES</b>
+            Nunavut – a territory in Northern Canada – was only established in 1999 and is home to the Inuit community. When driving a car in Nunavut, don’t be surprised to see plates resembling white polar bears instead of standard ones.  
+            <br><br>
+            <b>15. THE WORLD’S LONGEST COASTLINE</b>
+            The mainland coast of Canada together with the islands of Cape Breton, Newfoundland and Prince Edward Island are bordered by three oceans: the Atlantic, Arctic and Pacific. With all islands included, Canada’s oceanfront border measures 125,567 miles (202,080 km) long, which is the longest coastline in the world. 
+            <br><br>
+            <b>16. THE FIFTH-LARGEST CRUDE OIL PRODUCER IN THE WORLD</b>
+            Crude oil is also known as Black Gold, and not without reason. Many conflicts and wars have taken place to gain power over this energy resource. Canada has over 176 billion barrels of the semi-solid source of petroleum. That’s approximately 70% of the Earth’s overall resources.
+            <br><br>
+            <b>17. LITTLE MANITOU LAKE RESEMBLES THE DEAD SEA</b>
+            The Dead Sea in Israel is known for its buoyant water. The water’s salt content is so dense that it is impossible to sink. A similar saltwater lake exists in Canada. Located in Saskatchewan, Little Manitou Lake has about half of the Dead Sea’s salinity, meaning you can float effortlessly!
+            <br><br>
+            <b>18. THE WORLD’S LARGEST ISLAND-IN-A-LAKE-ON-AN-ISLAND-IN-A-LAKE-ON-AN-ISLAND</b>
+            Canada has a nameless and rather newly-discovered island within an island in the Arctic. Situated at 69.793° N, 108.241° W and surrounded by a larger island, the 4-acre strip of land is unknown because of its inaccessible location. 
+            <br><br>
+            <b>19. THE HIGHEST TIDES IN THE WORLD</b>
+            You can experience the highest tides in the world at the Bay of Fundy in New Brunswick. With a tidal range up to 38 ft. (12 meters), the tides flow in and out twice a day.  
+            <br><br>
+            <b>20. FIRST UNESCO WORLD HERITAGE SITE</b>
+            Built more than 300 years ago, Quebec’s fortifications make it the only fortified city in the country but also the first city in North America to become a UNESCO World Heritage Site.
+        </p>
+    </div>
+</body>
+</html>
